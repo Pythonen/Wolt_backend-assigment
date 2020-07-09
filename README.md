@@ -9,3 +9,7 @@ It is made with [Flask](https://flask.palletsprojects.com/en/1.1.x/)
 
 The json contains restaurants and the task was to make REST API to list
 restaurants with certain params. JSON file can be found [here](https://raw.githubusercontent.com/woltapp/summer2020/master/restaurants.json)
+
+To get the program running, you have to have Python 3.xx installed. When done cd into the project folder and run command
+```pip3 install -r requirements.txt```
+
