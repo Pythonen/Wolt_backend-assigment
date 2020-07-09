@@ -21,7 +21,8 @@ def query():
     args3 = request.args['lon']
     restaurants = jsonQuery(args1,float(args2),float(args3))
     print(args1)
-    return str(restaurants)
+    restaurants_json = json.dumps(restaurants)
+    return restaurants_json
 
 def jsonQuery(args1,args2,args3):
     """
